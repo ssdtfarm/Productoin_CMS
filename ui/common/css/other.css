@@ -1,0 +1,161 @@
+/*------------------------------------------------------------------*/
+/*    文件名称: other.css                                           */
+/*    文件功能: 定义menutop.jsp,quick.jsp,menu.jsp,station.jsp      */
+/*  最近更新人: 陈海强                                              */
+/*最近更新日期: 2004-12-22                                          */
+/*------------------------------------------------------------------*/
+
+body {
+	text-align:center;
+font: tahoma,verdana,arial,helvetica,sans-serif;
+font-size: 11px; margin-top:0px;
+SCROLLBAR-FACE-COLOR: #AED1F4; SCROLLBAR-HIGHLIGHT-COLOR: #AED1F4; 
+SCROLLBAR-SHADOW-COLOR: #AED1F4; SCROLLBAR-DARKSHADOW-COLOR: #AED1F4; 
+SCROLLBAR-3DLIGHT-COLOR: #AED1F4; SCROLLBAR-ARROW-COLOR: #FFFFFF;
+SCROLLBAR-TRACK-COLOR: #DAE9F8;
+filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#F0F0F0, EndColorStr=#d0d0d0);
+}
+.main{
+	width:1026px;
+	height:674px;
+	margin: auto;
+	top:50%;
+	left:50%;
+	margin-top:-337px;
+	margin-left:-513px;
+	position: absolute;
+}
+.login{
+	 width:1026px;
+	 height:674px;
+	background: url(../uimages/login-new.jpg);
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+	-moz-background-size:100% 100%;  
+	background-size:100% 100%;  
+	
+	
+}
+.common{
+	margin: 220 0 0 390;
+}
+.btnTable{
+	margin: 0 0 0 200;
+}
+
+.common .userClass{
+	margin: 220 0 0 250;
+	font-family: '宋体'; 
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+.common .pwd{
+	font-family: '宋体'; 
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	
+}
+.common .enClass{
+	font-size: 11px; 
+	font-weight: normal;
+	font-family: 'Segoe UI'; 
+}
+
+.btlogin{
+	margin:10px;
+	background: url(../uimages/log.gif);
+	border: 0px;
+	height: 37px;
+	width: 91px;
+	color: white;
+	font-weight: bold;
+	cursor: hand;
+}
+.btloginover{
+	margin:10px;
+	background: url(../uimages/log_s.gif);
+	border: 0px;
+	height: 37px;
+	width: 91px;
+	color: white;
+	font-weight: bold;
+	cursor: hand;
+}
+.btcancle{
+	margin:10px;
+	background: url(../uimages/cancel.gif);
+	border: 0px;
+	height: 37px;
+	width: 91px;
+	color: white;
+	font-weight: bold;
+	cursor: hand;
+}
+.btcancleover{
+	margin:10px;
+	background: url(../uimages/cancel_s.gif);
+	border: 0px;
+	height: 37px;
+	width: 91px;
+	color: white;
+	font-weight: bold;
+	cursor: hand;
+}
+.position{
+	background: url(../uimages/positionbg.gif);
+	border: 1px solid #c9c9c9;
+	height: 30px;
+}
+input.input{
+	/*background-color:   #979797;*/
+	background-color:   #edecec;
+	border: 1px white solid;
+	color: #2B2B2B;
+	height: 22px;
+	width: 157px;
+	line-height: 25px;
+	font-size: 14px;
+	border-color: #9b9191;
+	font-family: 'arial'; 
+	
+}
+
+
+input.input_pw{
+	/*background-color:   #979797;*/
+	background-color:   #edecec;
+	border: 1px white solid;
+	color: #2B2B2B;
+	height: 22px;
+	width: 157px;
+	line-height: 25px;
+	font-size: 12px;
+	border-color: #9b9191;
+	font-family: 'arial'; 
+}
+
+input.input_code{
+	/*background-color:   #979797;*/
+	background-color:   #edecec;
+	border: 1px white solid;
+	color: #2B2B2B;
+	height: 22px;
+	width: 90px;
+	line-height: 25px;
+ 
+	font-size: 12px;
+	border-color: #9b9191;
+	
+}
+.common td{
+	font-family: '黑体';
+	font-size: 16px;
+}
+.copyright{
+	text-align: center;
+	margin-top: 0;
+	font-family: '宋体',arial;
+	font-size: 12px;
+	line-height: 20px;
+}

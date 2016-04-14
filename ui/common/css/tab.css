@@ -1,0 +1,59 @@
+.tab {
+	WIDTH: 100em; POSITION: relative;
+}
+.tab DT {
+ 	width:				70px;
+	height:				19px;
+	background-image:	url( "../images/tab/tab.png" );
+	
+	position:		relative;
+	top:			1;
+	display:		inline;
+	float:			left;
+	overflow:		hidden;	
+	cursor:			Default;
+
+	margin:			1px -1px 1px 2px;
+	padding:		2px 0px 0px 0px;
+	z-index:		1;
+	font:			11px Tahoma;
+	white-space:	nowrap;
+	text-align:		center;
+  
+	border-bottom: 1px solid rgb( 145, 155, 156 );
+
+}
+.tab .current {
+		width:				70px;
+	height:				19px;
+	background-image:	url( "../images/tab/tab.hover.png" );
+	
+	position:		relative;
+	top:			1;
+	display:		inline;
+	float:			left;
+	overflow:		hidden;	
+	cursor:			Default;
+
+	margin:			1px -1px 1px 2px;
+	padding:		2px 0px 0px 0px;
+	font:			11px Tahoma;
+	white-space:	nowrap;
+	text-align:		center;
+  FONT-WEIGHT: bold;
+}
+.tab DD {
+	BORDER-RIGHT: #ccc 1px solid;
+        PADDING-RIGHT: 1em;
+        BORDER-TOP: #ccc 1px solid;
+        PADDING-LEFT: 0px;
+        Z-INDEX: 1;
+        BACKGROUND: #fff;
+        LEFT: 0px;
+        PADDING-BOTTOM: 1em;
+        BORDER-LEFT: #ccc 1px solid;
+        WIDTH: 40em; PADDING-TOP: 1em;
+        BORDER-BOTTOM: #ccc 1px solid;
+        POSITION: absolute;
+        TOP: 1.6em
+}

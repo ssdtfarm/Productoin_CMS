@@ -1,0 +1,393 @@
+/*--BODY的样式--*/
+body {
+	font: tahoma, verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 15 0 0 15px;
+	SCROLLBAR-FACE-COLOR: #E7E7E7;
+	SCROLLBAR-HIGHLIGHT-COLOR: #E7E7E7;
+	SCROLLBAR-SHADOW-COLOR: #E7E7E7;
+	SCROLLBAR-DARKSHADOW-COLOR: #E7E7E7;
+	SCROLLBAR-3DLIGHT-COLOR: #E7E7E7;
+	SCROLLBAR-ARROW-COLOR: #545454;
+	SCROLLBAR-TRACK-COLOR: #ffffff;
+}
+
+/*--TABLE的样式--*/
+table.common {
+	width: 98%;
+	font-size: 9pt;
+}
+
+/*--TD的样式--*/
+table.common td {
+	white-space: nowrap;
+}
+
+td.common {
+	font-size: 9pt
+}
+
+td.common2 {
+	font-size: 19pt
+}
+
+td.formtitle {
+	font-size: 9pt;
+	font-weight: bold;
+	background-color: #4D457A;
+	text-align: center;
+	color: #ffffff;
+}
+
+td.titleImg {
+	font-weight: bold;
+	text-align: left;
+	font-size: 9pt;
+	color: #000000
+}
+
+td.title {
+	white-space: nowrap;
+	background-color: #ffffff;
+	text-align: left;
+	width: 10%px;
+	color: #656565;
+}
+
+td.titletyt {
+	text-align: left;
+	width: 10%;
+	color: #000000;
+	font-size: 9pt;
+	font-weight: bold
+}
+
+td.input {
+	background-color: #ffffff;
+	width: 20%px;
+}
+
+/*--TR的样式--*/
+tr.listtitle {
+	background-color: #4D457A;
+	text-align: center;
+	color: #ffffff
+}
+
+tr.listodd {
+	background-color: #CCC8E0;
+	text-align: center;
+	color: #800080
+}
+
+tr.listeven {
+	background-color: #F7F7F7;
+	text-align: center;
+	color: #800080
+}
+
+tr.trTitle {
+	text-align: center;
+	height: 30px;
+	background-color: #9cceff;
+	color: #000000;
+	font-size: 9pt
+}
+
+tr.trGrid {
+	text-align: center;
+	height: 24px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 9pt
+}
+
+tr.trGridBack {
+	text-align: center;
+	height: 24px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 9pt
+}
+
+tr.trGridFront {
+	text-align: center;
+	height: 24px;
+	background-color: #F3F3F3;
+	color: #000000;
+	font-size: 9pt
+}
+
+/*--INPUT的样式--*/
+input {
+	behavior: url(../common/behaviors/inputcontrol.htc);
+	font-size: 12px;
+	font-family: '宋体'
+}
+
+input.common {
+	background-color: #F4F4F4;
+	border: 1px #aaaaaa solid;
+	height: 20px;
+	width: 180px;
+}
+
+input.common8 {
+	background-color: #F4F4F4;
+	border: 1px #799AE1 solid;
+	height: 20px;
+	width: 400px;
+}
+
+input.readonly {
+	width: 180px;
+	background-color: #F4F4F4;
+	color: #000000;
+	BORDER-TOP-WIDTH: 1px;
+	BORDER-TOP-STYLE: solid;
+	BORDER-TOP-COLOR: #F7F7F7;
+	BORDER-BOTTOM-WIDTH: 1px;
+	BORDER-BOTTOM-STYLE: solid;
+	BORDER-BOTTOM-COLOR: #F7F7F7;
+	BORDER-RIGHT-STYLE: none;
+	BORDER-LEFT-STYLE: none
+}
+
+input.code {
+	background-color: #F4F4F4;
+	border: 1px #aaaaaa solid;
+	height: 20px;
+	width: 180px
+}
+
+input.code8 {
+	background-color: #F4F4F4;
+	background: url('../uimages/codeno.gif') repeat-x;
+	border: 0px;
+	height: 20px;
+	width: 180px
+}
+
+input.warn {
+	background-color: #ffb900;
+	border: 1px #9999CC solid;
+	height: 20px;
+	width: 180px;
+}
+
+input.warnno {
+	background-color: #ffb900;
+	border: 1px #9999CC solid;
+	height: 20px;
+	width: 60px;
+}
+
+input.keyvalue {
+	width: 180px; readonly;
+	background-color: #A7B5D6;
+	color: white;
+	border-style: none
+}
+
+input.codeno {
+	color: black;
+	background-color: #F4F4F4;
+	border: 1px #aaaaaa solid;
+	height: 20px;
+	width: 60px;
+	background: url('../uimages/codeno.gif') repeat-x;
+}
+
+input.codenocom {
+	color: black;
+	background-color: #F7F7F7;
+	border: 1px #799AE1 solid;
+	height: 20px;
+	width: 60px;
+}
+
+input.codename {
+	color: black;
+	background-color: #F4F4F4;
+	border: 1px #aaaaaa solid;
+	height: 20px;
+	width: 120px;
+}
+
+input.codenamecom {
+	color: black;
+	background-color: #F7F7F7;
+	border: 1px #aaaaaa solid;
+	height: 20px;
+	width: 120px;
+}
+
+input.cssButtonLong {
+	background: url('../uimages/btn.gif') no-repeat;
+	CURSOR: hand;
+	COLOR: black;
+	border: 0;
+	width: 56px;
+	height: 22px;
+	margin-top: 5px;
+}
+
+input.cssButton {
+	background: url('../uimages/btnrepeat.gif') repeat-x;
+	border:1px solid #626262;
+	CURSOR: hand;
+	COLOR: black;
+	height: 20px;
+	padding:0 2px;
+	margin-top: 5px;
+}
+
+/*--TEXTAREA的样式--*/
+textarea.common {
+	background-color: #F4F4F4;
+	border: 1px gray solid;
+	width: 300px;
+}
+
+textarea.common1 {
+	border: 1px #9999CC solid;
+	width: 98%;
+	background-color: #f6ffff;
+	border-left-style: inset;
+	border-right-style: groove;
+	border-top-style: inset;
+	border-bottom-style: groove;
+}
+
+textarea.code {
+	background-color: #86AAE1;
+	border: 1px #9999CC solid;
+}
+
+/*--SELECT的样式--*/
+select {
+	background-color: #F7F6E5;
+	color: #000000;
+	FONT-SIZE: 9pt;
+	font-family: "宋体";
+	BORDER-RIGHT: #946300 0px solid;
+	BORDER-TOP: #946300 0px solid;
+	BORDER-LEFT: #946300 0px solid;
+	BORDER-BOTTOM: #946300 0px solid;
+}
+
+select.query {
+	width: 40px;
+	background-color: #F7F7F7;
+	border: 1px #799AE1 solid;
+}
+
+/*--A的样式--*/
+A.menu:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+A.menu:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+A.menu:active {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+A.menu:hover {
+	text-decoration: none;
+	color: yellow;
+}
+
+A:link {
+	text-decoration: none;
+	color: #800080;
+}
+
+A:visited {
+	text-decoration: none;
+	color: #800080;
+}
+
+A.active {
+	text-decoration: none;
+	color: #800080;
+}
+
+A:hover {
+	text-decoration: none;
+	color: red;
+}
+
+/*--IMG的样式--*/
+IMG.button {
+	cursor: hand
+}
+
+/* cooDatePicker                    */
+.coolDatePicker {
+	behavior: url(../common/behaviors/coolDatePicker.htc);
+	buttonImageUrl: ../ common/ uimages/ calendar.gif;
+	prevImageUrl: ../ common/ images/ prev.gif;
+	nextImageUrl: ../ common/ images/ next.gif;
+	font-size: 10pt;
+	font-family: Verdana, Arial, Helvetica;
+	vertical-align: top;
+	margin: 0px;
+	border: 1px #aaaaaa solid;
+	padding: 1px;
+	height: 20px;
+	width: 130px;
+	background-color: #F7F7F7;
+}
+
+.coolDatePickerLeftHeader,.coolDatePickerCenterHeader,.coolDatePickerRightHeader,.coolDatePickerDay,.coolDatePickerDate
+	{
+	background-color: #F7F7F7;
+	border-right: buttonshadow 1px solid;
+	border-top: buttonhighlight 1px solid;
+	border-left: buttonhighlight 1px solid;
+	border-bottom: buttonshadow 1px solid;
+	position: absolute;
+	text-align: center;
+	font: bolder 8pt Verdana;
+	height: 18px;
+	width: 19px;
+}
+
+.coolDatePickerLeftHeader {
+	left: 0px;
+	cursor: hand;
+}
+
+.coolDatePickerCenterHeader {
+	padding-top: 1px;
+	width: 95px;
+	left: 19px;
+	cursor: default;
+}
+
+.coolDatePickerRightHeader {
+	left: 114px;
+	cursor: hand;
+}
+
+.coolDatePickerDay {
+	padding-top: 1px;
+	top: 18px;
+	cursor: default;
+}
+
+.coolDatePickerDate {
+	padding-top: 2px;
+	font: 7.5pt Verdana;
+	cursor: hand;
+}
+.MulLinePageDiv{
+	display:none;
+}

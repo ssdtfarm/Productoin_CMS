@@ -1,0 +1,30 @@
+.td_List_Text{
+	font-family:"宋体";
+	font-size: 9pt;
+	text-align: center;
+	vertical-align: middle;
+}
+.td_List_Date{
+	font-family:"宋体";
+	font-size: 8pt;
+	text-align: right;
+	vertical-align: middle;
+}
+.td_List_TextEX{
+	font-family:"宋体";
+	font-size: 10.5pt;
+	text-align: center;
+	vertical-align: middle;
+}
+.td_List_TextEX1{
+	font-family:"宋体";
+	font-size: 10.5pt;
+	text-align: left;
+	vertical-align: middle;
+}
+.td_List_DateEX{
+	font-family:"宋体";
+	font-size: 6pt;
+	text-align: right;
+	vertical-align: middle;
+}

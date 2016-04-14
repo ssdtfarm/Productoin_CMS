@@ -1,0 +1,47 @@
+.Title {
+	font-family: "宋体";
+	font-size: 12pt;
+	text-align: center;
+	vertical-align: middle;
+}
+.td_Line_Bottom{
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+}
+.td_List_Head{
+	font-family:"宋体";
+	font-size: 10.5pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+.td_List_Text{
+	font-family:"宋体";
+	font-size: 10.5pt;
+	text-align: center;
+	vertical-align: middle;
+}
+.td_Item_Head{
+	font-family:"宋体";
+	font-size: 10.5pt;
+	font-weight: bold;
+}
+.td_Item_Text{
+	font-family:"宋体";
+	font-size: 10.5pt;
+	text-align: left;
+	vertical-align: middle;
+}.td_Item_Other {
+	font-family: "宋体";
+	font-size: 12pt;
+	text-align: left;
+	vertical-align: middle;
+}
+.td_List_Head2 {
+	font-family: "宋体";
+	font-size: 10.5pt;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: middle;
+}

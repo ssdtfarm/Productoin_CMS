@@ -1,0 +1,44 @@
+/*------------------------------------------------------------------*/
+/*    文件名称: other.css                                           */
+/*    文件功能: 定义menutop.jsp,quick.jsp,menu.jsp,station.jsp      */
+/*  最近更新人: 陈海强                                              */
+/*最近更新日期: 2004-12-22                                          */
+/*------------------------------------------------------------------*/
+
+body {
+font: tahoma,verdana,arial,helvetica,sans-serif;
+font-size: 9px; margin-top:0px;
+SCROLLBAR-FACE-COLOR: #fafafa; SCROLLBAR-HIGHLIGHT-COLOR: #fafafa; 
+SCROLLBAR-SHADOW-COLOR: #fafafa; SCROLLBAR-DARKSHADOW-COLOR: #aaaaaa; 
+SCROLLBAR-3DLIGHT-COLOR: #aaaaaa; SCROLLBAR-ARROW-COLOR: #BD001E;
+SCROLLBAR-TRACK-COLOR: #ffffff;
+}
+TD {
+	FONT-FAMILY: 宋体;font-size:9pt
+}
+TH {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(../images/bg_h.gif); COLOR: white; BACKGROUND-COLOR: #4455aa
+}
+input {FONT-FAMILY: 宋体;font-size:9pt}
+input.common2{  font-family: "宋体", "Arial"; line-height: 16px; color: #FFFFFF; text-decoration: none; background-position: center bottom; text-align: left; border: 0px solid; font-size: 12px; font-weight: normal; background-color: BD001E}
+input.common3{  font-family: "宋体", "Arial"; line-height: 16px; color: #FFFFFF; text-decoration: none; background-position: center bottom; text-align: left; border: 0px solid; font-size: 12px; font-weight: normal; background-color: 930016}
+.table {
+border: 1px solid #0A6CCD;
+}
+.banquan {  font-family: "宋体", "Arial"; font-size: 12px; line-height: 16px; color: BC001D; text-decoration: none; vertical-align: middle; background-position: center center; text-align: center}
+.banquan:visited {  font-family: "宋体", "Arial"; font-size: 12px; line-height: 16px; color: BC001D; text-decoration: none}
+.banquan:link {  font-family: "宋体", "Arial"; font-size: 12px; line-height: 16px; color: BC001D; text-decoration: none}
+.banquan:active {  font-family: "宋体", "Arial"; font-size: 12px; line-height: 16px; color: BC001D; text-decoration: none}
+.banquan:hover {  font-family: "宋体", "Arial"; font-size: 12px; line-height: 16px; color: BC001D; text-decoration: none}
+select{
+    border:none;
+    background-color: #fafafa;
+	color:#000000;
+	FONT-SIZE: 9pt;
+	font-family: "宋体";
+	BORDER-RIGHT: #946300 0px solid;
+	BORDER-TOP: #946300 0px solid;
+	BORDER-LEFT: #946300 0px solid;
+	BORDER-BOTTOM: #946300 0px solid;
+
+ }
